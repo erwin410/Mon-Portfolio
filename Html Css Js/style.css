@@ -87,3 +87,15 @@
     font-size: 50px;
     margin: 4px 0;
 }
+
+/* Logo Style */
+
+
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 123px;
+    left: 123px;
+}
