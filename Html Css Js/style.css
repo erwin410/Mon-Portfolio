@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+}
+
+@import url(//db.onlinewebfonts.com/c/31ed0189fe1ff1e740a652e0f75b77dc?family=Snell+Roundhand);
+
+@font-face {font-family: "Snell Roundhand"; src: url("//db.onlinewebfonts.com/t/31ed0189fe1ff1e740a652e0f75b77dc.eot"); src: url("//db.onlinewebfonts.com/t/31ed0189fe1ff1e740a652e0f75b77dc.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/31ed0189fe1ff1e740a652e0f75b77dc.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/31ed0189fe1ff1e740a652e0f75b77dc.woff") format("woff"), url("//db.onlinewebfonts.com/t/31ed0189fe1ff1e740a652e0f75b77dc.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/31ed0189fe1ff1e740a652e0f75b77dc.svg#Snell Roundhand") format("svg"); }
 
 *{
     margin: 0;
@@ -53,6 +61,7 @@
     color: #fff;
     font-size: 28px;
     font-weight: 500;
+    font-family: Avenir;
     margin-left: 60px;
     transition: color 0.3s ease;
 }
@@ -77,19 +86,21 @@
     margin: 247px 0 auto 40px;
 }
 
+/* Titre */
 .home .home-content .text-1{
     font-size: 85px;
     font-weight: 600;
     margin-left: 1px;
+    font-family: Avenir;
 }
 
 .home .home-content .text-2{
     font-size: 50px;
     margin: 4px 0;
+    font-family: Snell Roundhand;
 }
 
 /* Logo Style */
-
 
 img{
     width: 120px;
