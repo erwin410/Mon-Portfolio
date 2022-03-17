@@ -79,16 +79,9 @@
     color: #0ce;
 }
 
-/* Menu btn Styling */
-.menu-btn{
-    color: #fff;
-    font-size: 23px;
-    cursor: pointer;
-}
-
-.menu{
+/* .menu{
     margin-right: -355px;
-}
+} */
 /* Section Accueil Style */
 .home{
     display: flex;
