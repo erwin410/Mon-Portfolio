@@ -26,7 +26,12 @@
     position: fixed;
     width: 100%;
     padding: 31px 0;
-    /*background: crimson;*/
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky{
+    padding: 15px 0;
+    background: crimson;
 }
 
 .navbar .max-width{
@@ -68,6 +73,10 @@
 
 .navbar .menu li a:hover{
     color: red;
+}
+
+.navbar.sticky .menu li a:hover{
+    color: #0ce;
 }
 
 .menu{
