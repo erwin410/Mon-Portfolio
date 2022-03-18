@@ -248,17 +248,24 @@ section .title::after{
     font-size: 20px;
     color: crimson;
     padding: 5px;
-    background: #fff;
+    /* background: #fff; */
     transform: translateX( -50% );
 }
 
 /* Section Skills Style */
+
+.skills{
+    color: #fff;
+    background: #111;
+
+}
+
 .skills .title::after{
     content: "what i know";
 }
 
 .skills .skills-content .column{
-    width: calc( 50% - 30px );
+    width: calc( 50% - 10px );
 }
 
 .skills .skills-content .left .text{
