@@ -37,7 +37,7 @@ html{
 
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: #111;
 }
 
 .navbar .max-width{
@@ -90,7 +90,7 @@ html{
 /* Section Accueil Style */
 .home{
     display: flex;
-    background: url("Images/ImageBack.jpg")  no-repeat center;
+    background: url("Images/Background.jpg")  no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -335,6 +335,7 @@ footer{
     background: #111;
     padding: 20px 23px;
     color: #fff;
+    justify-content: center;
 }
 
 footer span a{
