@@ -113,6 +113,10 @@ html{
     font-family: Avenir;
 }
 
+.home .home-content .text-2 span{
+    color: #0ce;
+}
+
 
 /* Section About Style */
 

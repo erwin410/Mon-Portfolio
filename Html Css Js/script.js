@@ -1,4 +1,7 @@
 
+
+
+
 // Barre de Navigation Fixe Anime.
 $(document).ready(function(){
         $(window).scroll(function(){
@@ -9,3 +12,19 @@ $(document).ready(function(){
             }
         })
 })
+
+
+// Typing Text Animation
+var typed = new Typed(".typing", {
+    strings: ["Designer Web", "Developpeur", "Vidéaste"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
+
+var typed = new Typed(".typing-2", {
+    strings: ["Designer Web", "Developpeur", "Vidéaste"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
